@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Copilot Automation IO</title>
+    <title>Autopilot Automation | QA Automation & Testing Services</title>
     <meta
       name="description"
-      content="Copilot Automation IO accelerates AI-powered workflows, copilots, and dashboards for operations teams."
+      content="Autopilot Automation builds rock-solid UI, API, and mobile test automation frameworks so your team can ship faster with confidence."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,341 +16,284 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header class="site-header" data-nav>
+  <body data-page="home">
+    <header class="site-header">
       <div class="container nav-bar">
-        <a href="#top" class="logo">Copilot Automation IO</a>
-        <nav class="nav-links">
-          <a href="#blueprint">Blueprint</a>
-          <a href="#capabilities">Capabilities</a>
-          <a href="#metrics">Impact</a>
-          <a href="#contact">Contact</a>
+        <a class="logo" href="index.html">Autopilot Automation</a>
+        <nav class="nav-links" data-nav>
+          <a href="index.html" data-nav-link="home">Home</a>
+          <a href="services.html" data-nav-link="services">Services</a>
+          <a href="about.html" data-nav-link="about">About</a>
+          <a href="case-studies.html" data-nav-link="case-studies">Case Studies</a>
+          <a href="contact.html" data-nav-link="contact">Contact</a>
         </nav>
-        <a class="btn btn-outline" href="#contact">Book a call</a>
+        <a class="btn btn-outline" href="contact.html">Book a Free Automation Audit</a>
         <button class="nav-toggle" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span>
           <span></span>
           <span></span>
         </button>
       </div>
     </header>
 
-    <main id="top">
+    <main>
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">AI Automation Studio</p>
-            <h1>
-              Launch copilots, orchestrate workflows, and monitor everything from
-              one command center.
-            </h1>
+            <p class="eyebrow">Freelance QA Automation & Testing Services</p>
+            <h1>Ship Quality Faster With Autopilot Automation</h1>
             <p>
-              Copilot Automation IO helps operations, revenue, and enablement
-              teams design AI-powered processes that stay compliant, observable,
-              and lightning fast.
+              We build rock-solid automation frameworks for web, mobile, and API testing—so
+              your product ships with confidence on every release.
             </p>
             <div class="cta-row">
-              <a class="btn" href="#contact">Deploy my Copilot</a>
-              <a class="btn btn-secondary" href="#blueprint">See the blueprint</a>
+              <a class="btn" href="contact.html">Book a Free Automation Audit</a>
+              <a class="btn btn-secondary" href="services.html">View Services</a>
             </div>
-            <div class="stat-row">
-              <div>
-                <p class="stat">45%</p>
-                <p class="stat-label">Cycle time reduction</p>
-              </div>
-              <div>
-                <p class="stat">3x</p>
-                <p class="stat-label">Automation coverage</p>
-              </div>
-              <div>
-                <p class="stat">98.9%</p>
-                <p class="stat-label">Workflow reliability</p>
-              </div>
-            </div>
-          </div>
-          <div class="hero-card">
-            <div class="card-header">
-              <p>Automation Pipeline</p>
-              <span class="badge badge-live">Live</span>
-            </div>
-            <ul class="pipeline">
-              <li>
-                <p>Signal ingestion</p>
-                <small>CRM, Slack, Jira</small>
-                <span>Stable</span>
-              </li>
-              <li>
-                <p>Copilot reasoning</p>
-                <small>Context window: 120k tokens</small>
-                <span>Ready</span>
-              </li>
-              <li>
-                <p>Human-in-the-loop</p>
-                <small>Policy guardrails</small>
-                <span>Pending approval</span>
-              </li>
-              <li>
-                <p>Analytics + alerts</p>
-                <small>Data warehouse + PagerDuty</small>
-                <span>Operational</span>
-              </li>
+            <ul class="hero-bullets">
+              <li>End-to-end UI, API, and mobile automation</li>
+              <li>Built with tools like Selenium, Playwright, Cypress, Appium, RestAssured</li>
+              <li>Designed for CI/CD and cloud testing platforms like BrowserStack</li>
             </ul>
           </div>
-        </div>
-      </section>
-
-      <section class="trust">
-        <div class="container">
-          <p>Trusted by automation-first teams</p>
-          <div class="trust-logos">
-            <span>ISO 27001</span>
-            <span>99.99% Uptime</span>
-            <span>GDPR Ready</span>
-            <span>SOC 2</span>
+          <div class="hero-panel">
+            <p class="panel-title">Automation That Works While You Sleep.</p>
+            <p class="panel-text">
+              Ship faster, with confidence, using battle-tested QA automation trusted by
+              founders, CTOs, QA leads, and engineering managers.
+            </p>
+            <div class="panel-metrics">
+              <div>
+                <span class="metric">70%</span>
+                <span class="metric-label">Manual regression time saved</span>
+              </div>
+              <div>
+                <span class="metric">9+</span>
+                <span class="metric-label">Years building automation</span>
+              </div>
+              <div>
+                <span class="metric">24/7</span>
+                <span class="metric-label">Confidence in releases</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="split-section">
+      <section class="section" id="who-we-help">
         <div class="container split-grid">
           <div>
-            <p class="eyebrow">The challenge</p>
-            <h2>Manual ops can’t keep up with AI-scale workloads.</h2>
+            <h2>Built for Teams That Can’t Afford Flaky Tests</h2>
             <p>
-              Teams stitch together scripts, dashboards, and approvals that
-              rarely talk to each other. Data silos widen, governance weakens,
-              and experimentation slows to a crawl.
+              Autopilot Automation partners with SaaS startups, product teams, and growing
+              engineering organizations that need fast, reliable test coverage—without hiring a
+              full QA team.
             </p>
           </div>
-          <div class="card">
-            <p class="eyebrow">Our approach</p>
-            <h3>A unified automation nerve center.</h3>
-            <ul class="checklist">
-              <li>Map every workflow plus its data exhaust.</li>
-              <li>Orchestrate copilots with embedded guardrails.</li>
-              <li>Surface analytics + alerts in real time.</li>
-              <li>Keep humans in the loop where judgment matters.</li>
-            </ul>
-          </div>
+          <ul class="checklist">
+            <li>Early-stage startups preparing for rapid releases</li>
+            <li>Scaling teams that need stable regression coverage</li>
+            <li>Organizations migrating from manual testing to automation</li>
+            <li>Teams modernizing legacy frameworks and tools</li>
+          </ul>
         </div>
       </section>
 
-      <section class="blueprint" id="blueprint">
+      <section class="section muted" id="services-overview">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">Delivery Blueprint</p>
-            <h2>From idea to automated workflow in three moves.</h2>
+            <h2>Automation That Covers Your Entire Stack</h2>
             <p>
-              Whether you are modernizing onboarding, renewals, or trust &
-              safety, we apply the same structured playbook.
+              From UI to API to mobile, we create a unified automation strategy tailored to your
+              product.
             </p>
-          </div>
-          <div class="blueprint-grid">
-            <article>
-              <span class="step-index">01</span>
-              <h3>Discover</h3>
-              <p>
-                Audit systems, uncover manual steps, and gather the telemetry we
-                need to train dependable copilots.
-              </p>
-              <ul>
-                <li>Process shadowing</li>
-                <li>Data instrumentation</li>
-                <li>Automation readiness score</li>
-              </ul>
-            </article>
-            <article>
-              <span class="step-index">02</span>
-              <h3>Design</h3>
-              <p>
-                Prototype user journeys, define guardrails, and test copilot
-                prompts against edge cases.
-              </p>
-              <ul>
-                <li>Service blueprints</li>
-                <li>Copilot UX flows</li>
-                <li>Compliance checkpoints</li>
-              </ul>
-            </article>
-            <article>
-              <span class="step-index">03</span>
-              <h3>Deploy</h3>
-              <p>
-                Launch production-ready automations with monitoring, alerting,
-                and a continuous improvement backlog.
-              </p>
-              <ul>
-                <li>Versioned workflows</li>
-                <li>Observability dashboards</li>
-                <li>Runbook handoff</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="capabilities" id="capabilities">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Capabilities</p>
-            <h2>Everything you need to ship AI-native operations.</h2>
           </div>
           <div class="card-grid">
             <article class="card">
-              <h3>Workflow copilot design</h3>
+              <h3>UI Automation Frameworks</h3>
               <p>
-                Custom copilots that write updates, triage tickets, and brief
-                execs using your proprietary data.
+                Maintainable, scalable UI test suites using tools like Selenium, Playwright, or
+                Cypress, aligned with your architecture and release cadence.
               </p>
-              <ul class="tag-list">
-                <li>RAG pipelines</li>
-                <li>Secure contexts</li>
-                <li>Role-aware prompts</li>
-              </ul>
             </article>
             <article class="card">
-              <h3>Automation engineering</h3>
+              <h3>API Automation & Integration Testing</h3>
               <p>
-                Event-driven workflows built on Zapier, n8n, Temporal, or your
-                internal stack.
+                Fast, reliable API test suites with clear reporting and coverage across your core
+                endpoints and business flows.
               </p>
-              <ul class="tag-list">
-                <li>API orchestration</li>
-                <li>Fallback logic</li>
-                <li>Human approvals</li>
-              </ul>
             </article>
             <article class="card">
-              <h3>Observability & trust</h3>
+              <h3>Mobile & Cross-Browser Automation</h3>
               <p>
-                Embedded metrics, audit trails, and alerting so every action is
-                explainable.
+                Consistent user experience across devices using Appium and cloud platforms like
+                BrowserStack.
               </p>
-              <ul class="tag-list">
-                <li>Realtime dashboards</li>
-                <li>Playbook analytics</li>
-                <li>Root-cause kits</li>
-              </ul>
             </article>
             <article class="card">
-              <h3>Integrations & data</h3>
+              <h3>CI/CD & Cloud Integration</h3>
               <p>
-                Seamless connectors for CRM, support, billing, and warehouse
-                ecosystems.
+                Plug your test suites into CI/CD pipelines and run them on real devices and
+                browsers in the cloud.
               </p>
-              <ul class="tag-list">
-                <li>Salesforce & HubSpot</li>
-                <li>Snowflake, BigQuery</li>
-                <li>Slack, Teams, email</li>
+            </article>
+          </div>
+          <div class="section-cta">
+            <a class="btn btn-secondary" href="services.html">Explore All Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how-it-works">
+        <div class="container">
+          <div class="section-heading">
+            <h2>How We Take You From Manual Chaos to Automation Clarity</h2>
+            <p>A simple, structured process from audit to launch.</p>
+          </div>
+          <div class="steps-grid">
+            <article>
+              <span class="step-index">01</span>
+              <h3>Discovery & Audit</h3>
+              <p>
+                We review your current testing approach, tech stack, and release process to
+                identify quick wins and long-term opportunities.
+              </p>
+            </article>
+            <article>
+              <span class="step-index">02</span>
+              <h3>Strategy & Framework Design</h3>
+              <p>
+                We propose a tailored automation strategy, choose the right tools, and design
+                framework architecture aligned with your team’s skills.
+              </p>
+            </article>
+            <article>
+              <span class="step-index">03</span>
+              <h3>Implementation & Integration</h3>
+              <p>
+                We build the automation framework, write core test suites, and integrate with
+                CI/CD, cloud testing, and reporting tools.
+              </p>
+            </article>
+            <article>
+              <span class="step-index">04</span>
+              <h3>Handover & Ongoing Support</h3>
+              <p>
+                We document everything, train your team, and optionally provide ongoing
+                maintenance and test coverage expansion.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="tech-stack">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Tools We Work With</h2>
+            <p>We pick the right tools for your context—not the latest shiny thing.</p>
+          </div>
+          <div class="multi-column">
+            <article>
+              <h3>UI & E2E Testing</h3>
+              <ul>
+                <li>Selenium</li>
+                <li>Playwright</li>
+                <li>Cypress</li>
+              </ul>
+            </article>
+            <article>
+              <h3>API Testing</h3>
+              <ul>
+                <li>Postman</li>
+                <li>RestAssured</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Mobile</h3>
+              <ul>
+                <li>Appium</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Infrastructure & Cloud Testing</h3>
+              <ul>
+                <li>BrowserStack</li>
+                <li>CI/CD (GitHub Actions, Jenkins, Azure DevOps, etc.)</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Reporting</h3>
+              <ul>
+                <li>Allure</li>
+                <li>ExtentReports</li>
+                <li>Custom dashboards</li>
               </ul>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="metrics" id="metrics">
-        <div class="container metrics-grid">
+      <section class="section" id="results">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What Our Clients Get</h2>
+            <p>Automation is not about tests—it’s about confidence.</p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Faster Releases</h3>
+              <p>Reduce regression cycles from days to hours with automated end-to-end coverage.</p>
+            </article>
+            <article class="card">
+              <h3>Higher Confidence in Production</h3>
+              <p>Catch critical issues before they hit your users, with stable, repeatable test suites.</p>
+            </article>
+            <article class="card">
+              <h3>Less Manual Drudgery</h3>
+              <p>Free your team from repetitive UI and smoke tests so they can focus on higher-value work.</p>
+            </article>
+            <article class="card">
+              <h3>Frameworks You Can Maintain</h3>
+              <p>Clear structure, clean code, and documentation that your team can extend long-term.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Trusted by Teams Who Take Quality Seriously</h2>
+            <p>Placeholder testimonials for now.</p>
+          </div>
+          <div class="testimonial-grid">
+            <article class="card">
+              <p>
+                “Autopilot Automation helped us move from almost no automation to a stable
+                framework in under 8 weeks. Our release process is now predictable and far less
+                stressful.”
+              </p>
+              <p class="author">Senior Engineering Manager · B2B SaaS Startup</p>
+            </article>
+            <article class="card">
+              <p>
+                “They didn’t just write tests—they built a system that fits our tech stack and our
+                team. The documentation and handover were excellent.”
+              </p>
+              <p class="author">Head of Product · E-commerce Platform</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-banner" id="final-cta">
+        <div class="container banner-grid">
           <div>
-            <p class="eyebrow">Proof in numbers</p>
-            <h2>Automation fuel for every playbook.</h2>
-            <p>
-              We blend AI copilots, automation engineers, and design partners to
-              deliver measurable wins within six weeks.
-            </p>
+            <h2>Ready to Put Your Testing on Autopilot?</h2>
+            <p>Let’s audit your current setup and map a path to reliable automation.</p>
           </div>
-          <div class="metric-cards">
-            <article>
-              <p class="metric-label">Deal desk</p>
-              <p class="metric-value">-6 hrs</p>
-              <p class="metric-desc">
-                Time to configure enterprise quotes with AI-assisted approvals.
-              </p>
-            </article>
-            <article>
-              <p class="metric-label">Customer onboarding</p>
-              <p class="metric-value">+38%</p>
-              <p class="metric-desc">Faster activation via automated briefs.</p>
-            </article>
-            <article>
-              <p class="metric-label">Trust & safety</p>
-              <p class="metric-value">24/7</p>
-              <p class="metric-desc">
-                Policy monitoring with automated escalations.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="testimonials">
-        <div class="container section-heading">
-          <p class="eyebrow">Operator stories</p>
-          <h2>“Copilot Automation IO gave our team superpowers.”</h2>
-          <p>
-            Placeholder quotes until we add real customer stories. Swap these
-            blocks with CMS-driven testimonials later.
-          </p>
-        </div>
-        <div class="container testimonial-grid">
-          <article class="card">
-            <p>
-              “We replaced twelve spreadsheets and a 40-step manual QA process
-              with a single copilot. Nothing slipped through the cracks.”
-            </p>
-            <p class="author">VP of Success, SaaS</p>
-          </article>
-          <article class="card">
-            <p>
-              “Runbooks stayed compliant even as we iterated weekly. The team
-              actually trusts our automations now.”
-            </p>
-            <p class="author">Head of RevOps, Fintech</p>
-          </article>
-          <article class="card">
-            <p>
-              “We launch experiments in days instead of quarters thanks to the
-              blueprint and observability stack.”
-            </p>
-            <p class="author">Operations Lead, Marketplace</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="container contact-grid">
-          <div>
-            <p class="eyebrow">Get in touch</p>
-            <h2>Let’s co-design your next automation sprint.</h2>
-            <p>
-              Tell us about your workflow backlog and we’ll send a tailored
-              roadmap within two business days.
-            </p>
-            <ul class="contact-meta">
-              <li>Email: <a href="mailto:hello@copilotautomation.io">hello@copilotautomation.io</a></li>
-              <li>Office: Remote-first team, working worldwide.</li>
-            </ul>
-          </div>
-          <form class="card contact-form" data-contact-form>
-            <label>
-              Name
-              <input type="text" name="name" placeholder="Ada Lovelace" required />
-            </label>
-            <label>
-              Work email
-              <input type="email" name="email" placeholder="ada@company.com" required />
-            </label>
-            <label>
-              Company
-              <input type="text" name="company" placeholder="Galactic Ops" />
-            </label>
-            <label>
-              What should we automate first?
-              <textarea name="message" rows="4" placeholder="Tell us about your workflow backlog"></textarea>
-            </label>
-            <button class="btn" type="submit">Send the brief</button>
-            <p class="form-note">
-              By submitting, you consent to being contacted about Copilot Automation IO services.
-            </p>
-          </form>
+          <a class="btn" href="contact.html">Book a Free Automation Audit</a>
         </div>
       </section>
     </main>
@@ -358,22 +301,41 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <p class="logo">Copilot Automation IO</p>
-          <p>AI-native automation partners for modern teams.</p>
+          <p class="logo">Autopilot Automation</p>
+          <p>
+            We design and build reliable automation frameworks for web, mobile, and API
+            testing—so your team can focus on shipping features, not fixing regressions.
+          </p>
         </div>
-        <div class="footer-links">
-          <a href="#blueprint">Blueprint</a>
-          <a href="#capabilities">Solutions</a>
-          <a href="#metrics">Impact</a>
-          <a href="#contact">Contact</a>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        <div class="footer-social">
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        <div>
+          <h4>Services Overview</h4>
+          <ul class="footer-links">
+            <li>UI Automation Frameworks</li>
+            <li>API & Mobile Automation</li>
+            <li>BrowserStack & CI/CD Setup</li>
+            <li>Test Framework Migration</li>
+            <li>AI-Powered Test Generation</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@autopilotautomation.io">hello@autopilotautomation.io</a></li>
+            <li>Remote – serving clients worldwide</li>
+          </ul>
         </div>
       </div>
-      <p class="footer-copy">© <span data-year></span> Copilot Automation IO. All rights reserved.</p>
+      <p class="footer-copy">© <span data-year></span> Autopilot Automation. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>

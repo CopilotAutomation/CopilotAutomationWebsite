@@ -1,15 +1,27 @@
 const navToggle = document.querySelector("[data-nav-toggle]");
-const nav = document.querySelector(".nav-links");
+const nav = document.querySelector("[data-nav]");
+const navLinks = document.querySelectorAll("[data-nav-link]");
+const activePage = document.body.dataset.page;
 const yearSpan = document.querySelector("[data-year]");
-const form = document.querySelector("[data-contact-form]");
+const contactForm = document.querySelector("[data-contact-form]");
+const successMessage = document.querySelector("[data-success-message]");
 
 if (navToggle && nav) {
   navToggle.addEventListener("click", () => {
     nav.classList.toggle("is-open");
   });
 
-  nav.querySelectorAll("a").forEach((link) => {
+  navLinks.forEach((link) => {
     link.addEventListener("click", () => nav.classList.remove("is-open"));
+  });
+}
+
+if (activePage && navLinks.length) {
+  navLinks.forEach((link) => {
+    if (link.dataset.navLink === activePage) {
+      link.classList.add("is-active");
+      link.setAttribute("aria-current", "page");
+    }
   });
 }
 
@@ -17,16 +29,14 @@ if (yearSpan) {
   yearSpan.textContent = new Date().getFullYear();
 }
 
-if (form) {
-  form.addEventListener("submit", (event) => {
+if (contactForm) {
+  contactForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    const data = new FormData(form);
-    const name = data.get("name") || "there";
-    form.reset();
-    const message = document.createElement("p");
-    message.className = "form-note";
-    message.textContent = `Thanks, ${name}! We’ll reach out soon.`;
-    form.appendChild(message);
-    setTimeout(() => message.remove(), 4000);
+    contactForm.reset();
+    if (successMessage) {
+      successMessage.classList.add("is-visible");
+      successMessage.setAttribute("role", "status");
+      setTimeout(() => successMessage.classList.remove("is-visible"), 5000);
+    }
   });
 }

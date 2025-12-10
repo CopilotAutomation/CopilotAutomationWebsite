@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Autopilot Automation</title>
+    <meta
+      name="description"
+      content="Explore UI, API, mobile automation, CI/CD integration, BrowserStack setup, and more from Autopilot Automation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="services">
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="logo" href="index.html">Autopilot Automation</a>
+        <nav class="nav-links" data-nav>
+          <a href="index.html" data-nav-link="home">Home</a>
+          <a href="services.html" data-nav-link="services">Services</a>
+          <a href="about.html" data-nav-link="about">About</a>
+          <a href="case-studies.html" data-nav-link="case-studies">Case Studies</a>
+          <a href="contact.html" data-nav-link="contact">Contact</a>
+        </nav>
+        <a class="btn btn-outline" href="contact.html">Book a Free Automation Audit</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container narrow">
+          <p class="eyebrow">Services</p>
+          <h1>Automation & Testing Services</h1>
+          <p>
+            Modular services that you can combine into a complete QA automation strategy. Whether
+            you are just getting started with test automation or modernizing an existing
+            framework, Autopilot Automation offers targeted services that plug directly into your
+            development workflow.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container service-stack">
+          <article class="service-card" id="ui-automation-frameworks">
+            <div>
+              <p class="eyebrow">UI Automation Frameworks</p>
+              <h2>Design and implementation of scalable UI automation frameworks for web applications.</h2>
+              <p>
+                We build maintainable UI test frameworks using tools like Selenium, Playwright, or
+                Cypress. Our frameworks follow best practices such as Page Object Model, clear
+                separation of concerns, reusable components, and robust reporting. The goal: fast,
+                reliable feedback on every UI change.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>Framework architecture design (POM, utilities, config management)</li>
+                <li>Core smoke and regression test suites</li>
+                <li>Cross-browser coverage as needed</li>
+                <li>Integrated reporting (Allure, ExtentReports, or similar)</li>
+                <li>Documentation and onboarding guide</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" id="api-automation">
+            <div>
+              <p class="eyebrow">API Automation & Integration Testing</p>
+              <h2>High-speed test suites for your APIs and key integration flows.</h2>
+              <p>
+                We design API automation to validate your endpoints, contracts, and critical business
+                flows. Using tools like Postman, RestAssured, and your existing CI platform, we help
+                you detect breaking changes early and keep your services stable.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>API test suite for core endpoints and workflows</li>
+                <li>Environment-aware configuration (DEV/QA/UAT/PROD)</li>
+                <li>Data-driven tests for edge cases and negative scenarios</li>
+                <li>Integration into CI/CD for automated runs</li>
+                <li>Test result reporting and metrics</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" id="mobile-automation">
+            <div>
+              <p class="eyebrow">Mobile Automation (iOS & Android)</p>
+              <h2>Consistent, cross-device test coverage for your mobile apps.</h2>
+              <p>
+                Using Appium and cloud device farms or BrowserStack, we implement end-to-end mobile
+                test flows that mirror real user journeys. From login to checkout, your critical
+                flows will be covered.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>Appium-based automation framework</li>
+                <li>Device and OS matrix setup</li>
+                <li>Core business flow coverage</li>
+                <li>Integration with CI and test reporting</li>
+                <li>Setup guide and team training</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" id="browserstack-cloud">
+            <div>
+              <p class="eyebrow">BrowserStack & Cloud Testing Integration</p>
+              <h2>Run your tests on real browsers and devices in the cloud.</h2>
+              <p>
+                We connect your automation frameworks to BrowserStack (or similar providers) so you
+                can test on real devices and browsers—without managing any infrastructure yourself.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>Cloud provider configuration (BrowserStack)</li>
+                <li>Secure handling of credentials and environment data</li>
+                <li>Parallel execution setup</li>
+                <li>Integration with CI (GitHub Actions, Jenkins, etc.)</li>
+                <li>Troubleshooting and documentation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" id="ci-cd-integration">
+            <div>
+              <p class="eyebrow">CI/CD Integration for Automated Testing</p>
+              <h2>Automatically run your tests on every commit, PR, or release.</h2>
+              <p>
+                We hook your automation suites into your CI/CD pipelines so tests run automatically
+                and provide fast feedback to your developers.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>Pipeline configuration (GitHub Actions, GitLab CI, Jenkins, Azure DevOps, etc.)</li>
+                <li>Test stages for smoke, regression, and nightly runs</li>
+                <li>Artifact and report publishing</li>
+                <li>Notifications for failures (email/Slack/other tools)</li>
+                <li>Documentation for your DevOps/QA teams</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" id="framework-migration">
+            <div>
+              <p class="eyebrow">Legacy Test Framework Migration</p>
+              <h2>Move away from brittle, slow, or outdated test stacks.</h2>
+              <p>
+                If your current automation suite is too slow, flaky, or hard to maintain, we help you
+                migrate to a modern, scalable framework without losing coverage or velocity.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>Assessment of current framework and tests</li>
+                <li>Migration strategy and roadmap</li>
+                <li>Incremental refactoring and porting of critical tests</li>
+                <li>Parallel runs for validation during migration</li>
+                <li>Final deprecation plan and handover</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card" id="ai-test-generation">
+            <div>
+              <p class="eyebrow">AI-Powered Test Generation & Optimization</p>
+              <h2>Use AI tools to accelerate test design and improve coverage.</h2>
+              <p>
+                We leverage AI-based tooling to suggest, generate, and optimize test cases. Combined
+                with human expertise, this approach increases coverage and identifies edge cases
+                faster.
+              </p>
+            </div>
+            <div>
+              <h4>Deliverables</h4>
+              <ul>
+                <li>AI-assisted test case design sessions</li>
+                <li>Generated test suites validated by a senior QA engineer</li>
+                <li>Documentation of test scenarios and coverage</li>
+                <li>Recommendations for ongoing AI usage in your workflow</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-banner">
+        <div class="container banner-grid">
+          <div>
+            <h2>Not Sure Where to Start?</h2>
+            <p>
+              We’ll start with a simple automation audit and propose a prioritized roadmap based on
+              your goals, timelines, and budget.
+            </p>
+          </div>
+          <a class="btn" href="contact.html">Book a Free Automation Audit</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="logo">Autopilot Automation</p>
+          <p>
+            We design and build reliable automation frameworks for web, mobile, and API
+            testing—so your team can focus on shipping features, not fixing regressions.
+          </p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services Overview</h4>
+          <ul class="footer-links">
+            <li>UI Automation Frameworks</li>
+            <li>API & Mobile Automation</li>
+            <li>BrowserStack & CI/CD Setup</li>
+            <li>Test Framework Migration</li>
+            <li>AI-Powered Test Generation</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@autopilotautomation.io">hello@autopilotautomation.io</a></li>
+            <li>Remote – serving clients worldwide</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-copy">© <span data-year></span> Autopilot Automation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
